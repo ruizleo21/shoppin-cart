@@ -1,0 +1,12 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /shopping
+spring:
+  profiles:
+    active: "@spring.profiles.active@"
+  jpa:
+    show-sql: false
+logging:
+  config: classpath:logback-spring.xml
+    
