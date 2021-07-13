@@ -7,6 +7,6 @@ spring:
     active: "@spring.profiles.active@"
   jpa:
     show-sql: false
-logging:
-  config: classpath:logback-spring.xml
+#logging:
+#  config: classpath:logback-spring.xml
     
