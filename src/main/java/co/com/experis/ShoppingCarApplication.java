@@ -26,9 +26,9 @@ public class ShoppingCarApplication {
     }
 
 	
-//	@PostConstruct
-//	public void loadFile() {
-//		productService.loadFile("Productos.csv");
-//	}
+	@PostConstruct
+	public void loadFile() {
+		productService.loadFile("Productos.csv");
+	}
 
 }
